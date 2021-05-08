@@ -1,6 +1,6 @@
-#clvcode
+# clvcode
 
-##Usage:
+## Usage:
 ```
 clvcode <config-file>
 
@@ -8,7 +8,7 @@ clvcode <config-file>
   output: log lines with filename + clover code (assumes SNES)
 ```
 
-##Why?
+## Why?
 I have an [SNES Classic][] that I upgraded from [Hackchi2][] to [Hackchi2 CE][].
 When I did it, I accidentally cleared out all my ROMs on the device. Luckily I
 had them still on my computer, but as `.7z` archives that contained lots of
