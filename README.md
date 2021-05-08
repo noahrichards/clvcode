@@ -20,6 +20,13 @@ a set of stranded save states. Those states are linked to the games by some
 CRC32-based code. So to figure out which ones I was missing, I unzipped all the
 archives and ran this binary to find the equivalent codes.
 
+## Implementation notes
+I'm mostly familiar with C++/`absl` so used it here.
+
+The specific CRC32 and "code" generating logic I took from the [Hackchi
+repo][hackchi code];
+
 [SNES Classic]:https://en.wikipedia.org/wiki/Super_NES_Classic_Edition
 [Hackchi2]:https://github.com/ClusterM/hakchi2
 [Hackchi2 CE]:https://github.com/TeamShinkansen/Hakchi2-CE
+[hackchi code]:https://github.com/ClusterM/hakchi2/blob/stable/Apps/NesMiniApplication.cs#L258
